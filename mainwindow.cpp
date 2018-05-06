@@ -6,7 +6,9 @@ MainWindow::MainWindow(QWidget *parent) :
 	ui(new Ui::MainWindow)
 {
 	ui->setupUi(this);
-	Bot = new JSecondStraw(this);
+    Bot = new JSecondStraw(this);
+    logInWindow = new LogInWindow(this);
+    logInWindow->show();
 }
 
 MainWindow::~MainWindow()

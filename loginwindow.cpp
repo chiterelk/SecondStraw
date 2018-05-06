@@ -17,3 +17,8 @@ void LogInWindow::on_pushButtonStart_clicked()
 {
 
 }
+
+void LogInWindow::on_pushButtonQuit_clicked()
+{
+    QApplication::closeAllWindows();
+}

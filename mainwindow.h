@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "jsecondstraw.h"
+#include "loginwindow.h"
 
 namespace Ui {
 class MainWindow;
@@ -18,7 +19,8 @@ public:
 
 private:
 	Ui::MainWindow *ui;
-	JSecondStraw * Bot;
+    JSecondStraw *Bot;
+    LogInWindow *logInWindow;
 };
 
 #endif // MAINWINDOW_H
