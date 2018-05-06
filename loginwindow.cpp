@@ -16,7 +16,7 @@ LogInWindow::~LogInWindow()
 
 void LogInWindow::didNotGetWallet()
 {
-	qDebug()<<"did not get wallet";
+	ui->label->setText("Авторизация не состоялась. Попробуйте еще раз.");
 }
 
 void LogInWindow::on_pushButtonStart_clicked()

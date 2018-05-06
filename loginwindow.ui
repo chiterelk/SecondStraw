@@ -30,7 +30,7 @@
            </font>
           </property>
           <property name="text">
-           <string>Enter your keys of Bittrex.</string>
+           <string>Введите ключи биржи Bittrex.</string>
           </property>
          </widget>
         </item>

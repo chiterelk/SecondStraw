@@ -19,7 +19,8 @@ public:
 	~MainWindow();
 	void enteredKeys(QString _apiKey, QString _secretKey);
 	void gotWallet(QList <JBalance*> _wallet);
-	void didNotGetWallet();
+	void didNotGetWallet(void);
+	void reshowBalance(QList <JBalance*> _wallet);
 
 private:
 	Ui::MainWindow *ui;
