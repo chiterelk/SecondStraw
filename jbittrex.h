@@ -52,6 +52,7 @@ signals:
 
 	gotTickers(QList <JTickers*> _tickers);
 	gotWallet(QList <JBalance*> _wallet);
+	didNotGetWallet();
 	gotMarkets(QList <JMarket*> _markets);
 	gotCurrencies(QList <JCurrency*> _markets);
 	openedBuyOrder(QString _uuid);

@@ -178,15 +178,17 @@ void JBittrex::gotBalances_(QNetworkReply *reply)
 				emit gotWallet(wallet);
 			}else{
 				qDebug()<<"Result is not array";
+				emit didNotGetWallet();
 			}
 		}else{
 
 			qDebug()<<"Success is false";
-
+			emit didNotGetWallet();
 		}
 
 	}else{
 		qDebug()<<"Error!";
+		emit didNotGetWallet();
 	}
 }
 
